@@ -234,7 +234,7 @@ services:
       args:
         APP_BRANCH: master
         APP_REPO: https://github.com/haproxy/haproxy
-        APP_VERSION: 91eb9b082b6d770bd17476e0631f032d82fc0901
+        APP_VERSION: 44c491ae6b95dfb56b43b32e1972421743a322bd
         CONFIG_FILE: haproxy.conf
         START_SCRIPT: start.sh
       context: ./images/haproxy
@@ -247,7 +247,7 @@ services:
       args:
         APP_BRANCH: master
         APP_REPO: https://github.com/haproxy/haproxy
-        APP_VERSION: 91eb9b082b6d770bd17476e0631f032d82fc0901
+        APP_VERSION: 44c491ae6b95dfb56b43b32e1972421743a322bd
         CONFIG_FILE: haproxy-fcgi.conf
         START_SCRIPT: start_fcgi.sh
       context: ./images/haproxy
@@ -258,7 +258,7 @@ services:
       args:
         APP_BRANCH: master
         APP_REPO: https://github.com/haproxy/haproxy
-        APP_VERSION: 91eb9b082b6d770bd17476e0631f032d82fc0901
+        APP_VERSION: 44c491ae6b95dfb56b43b32e1972421743a322bd
         CONFIG_FILE: haproxy-h2.conf
         START_SCRIPT: start.sh
       context: ./images/haproxy
@@ -392,7 +392,7 @@ services:
       args:
         APP_BRANCH: master
         APP_REPO: https://github.com/nginx/nginx
-        APP_VERSION: 6ed1188411882086e3518eda779ab782d8ab4d3f
+        APP_VERSION: 7fa941a55e211ebd57f512fbfb24d59dbb97940d
         CONFIG_FILE: nginx.conf
         START_SCRIPT: start.sh
       context: ./images/nginx
@@ -403,7 +403,7 @@ services:
       args:
         APP_BRANCH: master
         APP_REPO: https://github.com/nginx/nginx
-        APP_VERSION: 6ed1188411882086e3518eda779ab782d8ab4d3f
+        APP_VERSION: 7fa941a55e211ebd57f512fbfb24d59dbb97940d
         CONFIG_FILE: nginx-proxy.conf
         START_SCRIPT: start_proxy.sh
       context: ./images/nginx
@@ -486,7 +486,7 @@ services:
       args:
         APP_BRANCH: master
         APP_REPO: https://github.com/graygnuorg/pound
-        APP_VERSION: 3c978f574adefd881be3118b294e683bfe9a4473
+        APP_VERSION: 62a7e1afe7db6c631c366c0d495d0886db1c22be
       context: ./images/pound
     volumes:
     - ./tools:/tools
